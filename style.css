@@ -2,13 +2,12 @@
 *{
     margin: 0px;
     padding: 0px;
-    /* outline: 1px red solid; */
+    outline: 1px red solid;
    }
 
 /* GENERAL CONTAINER SETTINGS */
 
 .container{
-
     background-color: #245076;
     width: 970px;
     height: 500px;
@@ -41,6 +40,7 @@
 /* PYTHON IMAGE */
 .container .content .logo-and-search-box img{
     width: 400px;
+    margin-left: 20px;
 }
  /* AND SEARCH BAR HEADER STUFF */
 .container .content .logo-and-search-box .search-box{
@@ -51,7 +51,7 @@
     display: inline-block;
     vertical-align: top;
     margin-top: 12px;
-    margin-left: 280px;
+    margin-left: 260px;
     box-shadow: 2px 2px 2px 1px black;
 }
 
@@ -75,5 +75,59 @@
     background-color: #245076;
     box-shadow: 0px 0px 0px 1px grey, 2px 2px 2px 1px black;
     padding: 3px;
+}
+
+/* NAVBAR STUFFFFFF */
+
+.container .content .navbar ul{
+    width: 830px;
+    margin-left: 70px;
+    padding: 8px 10px; 
+    border-radius: 3px;
+    background-color:#3f7aad;
+    box-shadow:1px 1px 1px 1px black;
+    
+}
+.container .content .navbar li{
+    color: white;
+    margin:0px 18px;
+    display: inline-block;
+}
+
+/* QUICK LINK LIST */
+.container .content .about{
+    display: inline-block;
+}
+
+.container .content .about ul{
+    color: white;
+    width: 300px;
+    margin: 30px 30px;
+    list-style: none;
+    display: inline-block;
+}
+
+.container .content .about li{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container .content .about ul li p{
+    display: inline-block;
+    color: yellow;
+    letter-spacing: -0.15em;
+}
+
+.container .content .about a{
+    color: white;
+}
+
+/* INTRO TEXT  */
+.container .content .intro{
+    width: 550px;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    margin-top: 20px;
 
 }
