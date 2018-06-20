@@ -2,7 +2,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    outline: 1px red solid;
+    /* outline: 1px red solid; */
    }
 
 /* GENERAL CONTAINER SETTINGS */
@@ -15,7 +15,7 @@
 }
 
 /* BEGIN CONTENT BOX (The whole site) */
-
+/* TEXT SIZE HEADER BAR STUFF */
 .container .content .text-size-header{
     margin-left: 750px;
 }
@@ -38,3 +38,42 @@
     color: black;
 }
 
+/* PYTHON IMAGE */
+.container .content .logo-and-search-box img{
+    width: 400px;
+}
+ /* AND SEARCH BAR HEADER STUFF */
+.container .content .logo-and-search-box .search-box{
+    background-color: #444;
+    padding: 13px 10px 13px 10px;
+    border-radius: 10px;
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 12px;
+    margin-left: 280px;
+    box-shadow: 2px 2px 2px 1px black;
+}
+
+.container .content .logo-and-search-box input{
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+    outline: 1px grey solid;
+    vertical-align: top;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+.container .content .logo-and-search-box p{
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-radius: 5px;
+    background-color: #245076;
+    box-shadow: 0px 0px 0px 1px grey, 2px 2px 2px 1px black;
+    padding: 3px;
+
+}
