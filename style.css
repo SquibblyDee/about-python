@@ -2,4 +2,39 @@
 *{
     margin: 0px;
     padding: 0px;
+    outline: 1px red solid;
    }
+
+/* GENERAL CONTAINER SETTINGS */
+
+.container{
+
+    background-color: #245076;
+    width: 970px;
+    height: 500px;
+}
+
+/* BEGIN CONTENT BOX (The whole site) */
+
+.container .content .text-size-header{
+    margin-left: 750px;
+}
+
+.container .content .text-size-header p{
+    color: white;
+    display: inline-block;
+}
+
+.container .content .text-size-header a{
+    color: yellow;
+    display: inline-block;
+}
+
+.container .content .text-size-header .that-one-black-pipe{
+    display: inline-block;
+}
+
+.container .content .text-size-header .that-one-black-pipe p{
+    color: black;
+}
+
