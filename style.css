@@ -2,15 +2,16 @@
 *{
     margin: 0px;
     padding: 0px;
-    outline: 1px red solid;
+    /* outline: 1px red solid; */
    }
 
 /* GENERAL CONTAINER SETTINGS */
 
 .container{
     background-color: #245076;
+    font-family: Arial, Helvetica, sans-serif;
     width: 970px;
-    height: 500px;
+    height: 935px;
 }
 
 /* BEGIN CONTENT BOX (The whole site) */
@@ -50,7 +51,7 @@
     width: 250px;
     display: inline-block;
     vertical-align: top;
-    margin-top: 12px;
+    margin-top: 10px;
     margin-left: 260px;
     box-shadow: 2px 2px 2px 1px black;
 }
@@ -59,7 +60,7 @@
     height: 30px;
     text-align: center;
     display: inline-block;
-    outline: 1px grey solid;
+    outline: 1px #;
     vertical-align: top;
     margin-left: 20px;
     margin-top: 2px;
@@ -74,13 +75,14 @@
     border-radius: 5px;
     background-color: #245076;
     box-shadow: 0px 0px 0px 1px grey, 2px 2px 2px 1px black;
+    color: white;
     padding: 3px;
 }
 
 /* NAVBAR STUFFFFFF */
 
 .container .content .navbar ul{
-    width: 830px;
+    width: 850px;
     margin-left: 70px;
     padding: 8px 10px; 
     border-radius: 3px;
@@ -90,7 +92,7 @@
 }
 .container .content .navbar li{
     color: white;
-    margin:0px 18px;
+    margin:0px 13px;
     display: inline-block;
 }
 
@@ -101,20 +103,20 @@
 
 .container .content .about ul{
     color: white;
-    width: 300px;
-    margin: 30px 30px;
+    width: 170px;
+    margin: 40px 30px 0px 90px;
     list-style: none;
     display: inline-block;
 }
 
 .container .content .about li{
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .container .content .about ul li p{
     display: inline-block;
-    color: yellow;
+    color: #e9f415d2;
     letter-spacing: -0.15em;
 }
 
@@ -124,10 +126,134 @@
 
 /* INTRO TEXT  */
 .container .content .intro{
-    width: 550px;
+    width: 600px;
     display: inline-block;
     vertical-align: top;
+    text-align: center;
     color: white;
     margin-top: 20px;
 
 }
+
+.container .content .intro ul{
+    color: #d4b941;
+    font-style: italic;
+    font-size:  14pt;
+    list-style: none;
+}
+
+.container .content .intro li{
+    margin:15px 0px;
+}
+
+.container .content .intro h3{
+    font-weight: normal;
+}
+
+/* GETTING STARTED BOX & APPLICATIONS BOX */
+
+.container .content .wide-white-box{
+    width: 970px;
+    height: 310px;
+    background-color: white;
+    display: inline-block;
+    border-top: 4px solid #000;
+    margin-top: 30px;
+}
+
+.container .content .wide-white-box a{
+    text-decoration: none;
+    color: #7eaed8;
+}
+
+.container .content .wide-white-box .getting-started-blue-bar{
+    text-align: center;
+    width: 450px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-top: 5px solid #7eaed8;
+    display: inline-block;
+}
+
+.container .content .wide-white-box .getting-started-blue-bar .getting-started-title{
+    margin-left: 120px;
+    width: 180px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.container .content .wide-white-box .getting-started-blue-bar .getting-started-text{
+    margin-left: 60px;
+    width: 350px;
+}
+
+.container .content .wide-white-box .getting-started-blue-bar .getting-started-list{
+    margin-left: 100px;
+    width: 255px;
+}
+
+.container .content .wide-white-box .getting-started-blue-bar ul{
+    list-style: square;
+    margin: 10px 0px;
+}
+
+.container .content .wide-white-box .getting-started-blue-bar li{
+    margin: 10px 0px;
+}
+
+.container .content .wide-white-box .applications-blue-bar{
+    text-align: center;
+    width: 420px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-top: 5px solid #7eaed8;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.container .content .wide-white-box .applications-blue-bar .applications-title{
+    margin-left: 120px;
+    width: 150px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.container .content .wide-white-box .applications-blue-bar .applications-text{
+    margin-left: 50px;
+    width: 300px;
+}
+
+span{
+    font-size: 10pt;
+}
+
+.container .content .wide-white-box .applications-blue-bar .applications-list{
+    margin-left: 80px;
+    width: 255px;
+}
+
+.container .content .wide-white-box .applications-blue-bar ul{
+    list-style: square;
+    margin: 10px 0px;
+}
+
+.container .content .wide-white-box .applications-blue-bar li{
+    margin: 10px 0px;
+}
+
+/* FOOTER BEGINS HERE */
+.container .content .footer {
+    height: 100px;
+    width: 970px;
+    background: linear-gradient(to bottom, #255278, #3373aa);
+    color: #6196c5;
+    display: inline-block;
+    text-align: center;
+}
+
+.container .content .footer li{
+    display: inline-block;
+    margin:30px 20px 15px 20px;
+}
+
+
